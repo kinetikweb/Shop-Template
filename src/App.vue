@@ -1,7 +1,7 @@
 <template>
-    <div class="container h-20 bg-gray-300">
-
-    </div>
+    <h1 class="container text-3xl text-primary border border-primary">
+        Hello World!
+    </h1>
 </template>
 
 <script>
