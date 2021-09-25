@@ -1,12 +1,9 @@
 <template>
-    <h1 class="container text-3xl text-primary border border-primary">
-        Hello World!
-    </h1>
+    <Header />
 </template>
 
-<script>
-export default {
-}
+<script setup>
+import Header from "./components/Header.vue"
 </script>
 
 <style>
