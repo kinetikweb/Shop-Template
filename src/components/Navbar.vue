@@ -2,14 +2,7 @@
     <nav class="bg-gray-800">
         <div class="container flex">
             <!-- all category -->
-            <div class="px-8 py-4 bg-primary flex items-center cursor-pointer">
-                <span class="text-white">
-                    <MenuIcon class="w-6 h-6"/>
-                </span>
-                <span class="capitalize ml-2 text-white">
-                    All categories
-                </span>
-            </div>
+            <Dropdown />
             <!-- end all category -->
 
             <!-- navbar links -->
@@ -27,5 +20,5 @@
 </template>
 
 <script setup>
-import { MenuIcon } from '@heroicons/vue/outline'
+import Dropdown from "../components/dropdown/Dropdown.vue"
 </script>

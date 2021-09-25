@@ -25,6 +25,12 @@ module.exports = {
             },
         },
     },
+    variants: {
+        extend: {
+            display: ['group-hover'],
+            visibility: ['group-hover']
+        },
+    },
     plugins: [
         require('@tailwindcss/forms'),
         require('@tailwindcss/typography'),
