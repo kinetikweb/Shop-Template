@@ -23,6 +23,9 @@ module.exports = {
             colors: {
                 'primary': '#FD3D57'
             },
+            backgroundImage: {
+                'hero-sofa': "url('/src/assets/images/hero-sofa4.jpg')",
+            }
         },
     },
     variants: {
