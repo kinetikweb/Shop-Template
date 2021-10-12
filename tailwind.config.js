@@ -31,7 +31,8 @@ module.exports = {
     variants: {
         extend: {
             display: ['group-hover'],
-            visibility: ['group-hover']
+            visibility: ['group-hover'],
+            animation: ['hover', 'focus'],
         },
     },
     plugins: [
