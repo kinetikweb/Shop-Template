@@ -24,12 +24,12 @@
 
             <div class="col-span-2 grid grid-cols-2 gap-8">
                 <div class="grid grid-cols-2 gap-8">
-                    <div v-for="item in items" v-bind:key="item.id">
+                    <div v-for="footer in footers" v-bind:key="footer.id">
                         <h3 class="text-sm font-semibold text-gray-800 uppercase tracking-wider">
-                            {{ item.name }}
+                            {{ footer.name }}
                         </h3>
                         <div class="mt-4 space-y-4">
-                            <a v-for="subject in item.sub" href="#" class="text-base text-gray-500 hover:text-primary block">
+                            <a v-for="subject in footer.sub" href="#" class="text-base text-gray-500 hover:text-primary block">
                                 {{ subject }}
                             </a>
                         </div>
@@ -56,7 +56,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const items = ref([{
+const footers = ref([{
         name: 'Solution',
         sub: ['Marketing', 'Analytics', 'Commerce', 'Insights'],
         id: 1

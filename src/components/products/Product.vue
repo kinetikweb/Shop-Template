@@ -12,11 +12,11 @@
             </div>
         </div>
         <div class="pt-4 pb-3 px-4">
-            <a href="#">
+            <router-link to="/product">
                 <h4 class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">
                     Guyer chair
                 </h4>
-            </a>
+            </router-link>
             <div class="flex items-baseline mb-1 space-x-2 font-roboto">
                 <p class="text-xl text-primary font-semibold">
                     $45.00
