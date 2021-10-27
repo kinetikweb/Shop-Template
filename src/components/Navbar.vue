@@ -12,7 +12,9 @@
                         {{ link.name }}
                     </router-link>
                 </div>
-                <a href="#" class="text-gray-200 hover:text-white transition">Login/Register</a>
+                <router-link to="/login" class="text-gray-200 hover:text-white transition">
+                    Login/Register
+                </router-link>
             </div>
         </div>
     </nav>
