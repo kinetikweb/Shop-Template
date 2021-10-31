@@ -1,6 +1,7 @@
 import Home from './views/Home.vue'
 import Shop from './views/Shop.vue'
 import ProductPage from './views/ProductPage.vue'
+import Account from './views/Account.vue'
 import Login from './views/Login.vue'
 import NotFound from './views/NotFound.vue'
 
@@ -16,6 +17,11 @@ export const routes = [
         path: '/product',
         meta: { title: 'ProductPage' },
         component: ProductPage,
+    },
+    {
+        path: '/account',
+        meta: { title: 'Account' },
+        component: Account,
     },
     {
         path: '/login',
