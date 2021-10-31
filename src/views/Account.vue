@@ -1,4 +1,4 @@
-:<template>
+<template>
     <Breadcrumbs>
         My Account
     </Breadcrumbs>

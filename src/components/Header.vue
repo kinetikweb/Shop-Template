@@ -29,7 +29,7 @@
                     </div>
                     <span class="absolute right-1 -top-1 w-4 h-4 rounded-full flex items-center justify-center bg-primary text-white text-xs">8</span>
                 </a>
-                <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                <router-link to="/checkout" class="text-center text-gray-700 hover:text-primary transition relative">
                     <div class="text-2xl inline-flex items-center align-middle">
                         <ShoppingBagIcon class="w-6 h-6"/>
                     </div>
@@ -37,7 +37,7 @@
                         Cart
                     </div>
                     <span class="absolute -right-1 -top-1 w-4 h-4 rounded-full flex items-center justify-center bg-primary text-white text-xs">8</span>
-                </a>
+                </router-link>
                 <router-link to="/account" class="text-center text-gray-700 hover:text-primary transition relative">
                     <div class="text-2xl inline-flex items-center align-middle">
                         <UserIcon class="w-6 h-6"/>
