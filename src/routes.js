@@ -2,6 +2,7 @@ import Home from './views/Home.vue'
 import Shop from './views/Shop.vue'
 import ProductPage from './views/ProductPage.vue'
 import Account from './views/Account.vue'
+import Profile from './views/Profile.vue'
 import Checkout from './views/Checkout.vue'
 import Login from './views/Login.vue'
 import NotFound from './views/NotFound.vue'
@@ -23,6 +24,11 @@ export const routes = [
         path: '/account',
         meta: { title: 'Account' },
         component: Account,
+    },
+    {
+        path: '/profile',
+        meta: { title: 'Profile' },
+        component: Profile,
     },
     {
         path: '/checkout',

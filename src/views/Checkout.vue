@@ -126,8 +126,8 @@
                         </a>
                     </label>
                 </div>
-                <a href="#" class="w-full block text-center bg-primary border border-primary text-white px-4 py-3 font-medium rounded-md hover:bg-transparent hover:text-primary">
-                    Place holder
+                <a href="#" class="w-full block text-center bg-primary border border-primary text-white px-4 py-3 font-medium rounded-md hover:bg-transparent hover:text-primary transition uppercase text-sm">
+                    Place order
                 </a>
             </div>
         </div>
