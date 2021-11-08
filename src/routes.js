@@ -4,6 +4,7 @@ import ProductPage from './views/ProductPage.vue'
 import Account from './views/Account.vue'
 import Profile from './views/Profile.vue'
 import Checkout from './views/Checkout.vue'
+import Wishlist from './views/Wishlist.vue'
 import Login from './views/Login.vue'
 import NotFound from './views/NotFound.vue'
 
@@ -34,6 +35,11 @@ export const routes = [
         path: '/checkout',
         meta: { title: 'Checkout' },
         component: Checkout,
+    },
+    {
+        path: '/wishlist',
+        meta: { title: 'Wishlist' },
+        component: Wishlist,
     },
     {
         path: '/login',

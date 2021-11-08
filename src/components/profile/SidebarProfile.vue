@@ -60,12 +60,12 @@
                 </a>
             </div>
             <div class="space-y-1 pl-8 pt-4">
-                <a href="#" class="relative hover:text-primary block font-medium capitalize transition">
+                <router-link to="/wishlist" class="relative hover:text-primary block font-medium capitalize transition">
                     <span class="absolute -left-8 top-0 text-base">
                         <HeartIcon class="h-5 w-5"/>
                     </span>
                     My wishlist
-                </a>
+                </router-link>
             </div>
             <div class="space-y-1 pl-8 pt-4">
                 <a href="#" class="relative hover:text-primary block font-medium capitalize transition">
